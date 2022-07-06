@@ -29,7 +29,6 @@ class User {
         return User.makePublicUser(user)
       }
     }
-
     throw new UnauthorizedError("Invalid username/password")
   }
 
